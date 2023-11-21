@@ -87,7 +87,7 @@ aside h3{
     color:black;
     text-align: center;
     align-items: center;
-    height: 500px;
+    height: 465px;
 }
 
 .categoria_menu{
@@ -112,7 +112,7 @@ aside h3{
 }
 
 .boton_volver_libros{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 200px;
     border-radius: 15px;
     background-color: #99DB9F; 
