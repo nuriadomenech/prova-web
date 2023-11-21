@@ -1,0 +1,56 @@
+@import "estilos-compartidos.css";
+
+h2{
+    margin-top: 170px;
+    font-family: 'Amatic SC';
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+   }
+   section{
+    display:flex;
+
+   }
+   article{
+    width: 50%;
+    margin-left: 100px;
+    
+   }
+   input{
+    height: 35px;
+   }
+    
+   .elementos{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-weight: 700;
+   }
+
+   .botones{
+    display: flex;
+    text-align: center;
+   }
+
+   .botones input{
+    margin-top: 15px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: #99DB9F; 
+    margin-left: 50px;
+    font-size: 16px;
+    cursor: pointer;
+   }
+   
+   article p{
+    margin-top: 10px;
+    line-height: 2;
+   }
+   
+   article a{
+    text-decoration: none;
+    color: black;
+   }
+
+   article a:hover{
+    color: #EB8258;
+   }

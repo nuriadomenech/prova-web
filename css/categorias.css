@@ -1,0 +1,90 @@
+@import "estilos-compartidos.css";
+main{
+    display: flex; 
+}
+
+section{
+    width: 75%;
+    border: 1px solid rosybrown;
+    margin-right: 20px;
+}
+
+.contenedor_categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+h2{
+font-family: 'Amatic SC';
+text-align: center;
+font-size: 40px;
+font-weight: bold;
+margin-top: 20px;
+}
+
+.categoria{
+    border: 5px solid #99DB9F;
+    padding: 20px;
+    width: 25%;
+    margin: 20px;
+    height: 30%; 
+    text-align: center;  
+}
+
+.categoria a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1.5px;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+}
+
+.categoria a:hover{
+    color: #EB8258;
+}
+
+.imagen_libro{
+    margin-top: 10px;
+    width: 75%;
+}
+    
+
+aside {
+width: 25%; 
+border: 1px solid #99DB9F ;
+padding: 25px;
+height: 535px;
+
+}
+aside a{
+text-decoration: none;
+color:black;
+}
+
+aside a:hover{
+color: #EB8258;
+}
+
+aside p {
+text-align: justify;
+line-height: 1.7em;
+
+}
+.reseña_destacada{
+display: block;
+font-weight: 700;
+font-size: 22px;
+color: #eb8258;
+text-align: center;
+
+}
+
+.titulo_reseña {
+font-family: 'Amatic SC', sans-serif;
+font-size: 25px;
+letter-spacing: 1px;
+text-align: center;
+color: #6689A1;
+}

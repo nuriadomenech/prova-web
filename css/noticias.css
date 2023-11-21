@@ -1,0 +1,92 @@
+@import "estilos-compartidos.css";
+
+main{
+    display: flex;  
+}
+
+.noticias{
+width: 75%;
+margin-right: 20px;
+}
+
+.titulo_pag_noticias{
+    font-family: 'Amatic SC';
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.titulos_noticias{
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+text-align: left;
+color: #6689A1;
+margin-bottom: 15px;
+}
+
+.noticia{
+margin-bottom: 20px;
+border: 1px solid rosybrown;
+padding: 50px;
+}
+
+.noticia p{
+text-align: justify;
+line-height: 2;
+margin-bottom: 10px;
+}
+
+.noticia a{
+text-decoration: none;
+font-weight: 500;
+color: black;
+float: right;
+padding: 10px;
+border: solid 1px #99DB9F;
+background-color: #99DB9F;
+border-radius: 10px;
+}
+
+.noticia a:hover{
+color: #EB8258;
+}
+
+aside {
+width: 25%; 
+border: 1px solid #99DB9F ;
+padding: 25px;
+height: 535px;
+margin-top: 65px;
+}
+
+aside a{
+text-decoration: none;
+color:black;
+}
+
+aside a:hover{
+color: #EB8258;
+}
+
+aside p {
+text-align: justify;
+line-height: 1.7em;
+
+}
+.reseña_destacada{
+display: block;
+font-weight: 700;
+font-size: 22px;
+color: #eb8258;
+text-align: center;
+
+}
+
+.titulo_reseña {
+font-family: 'Amatic SC', sans-serif;
+font-size: 25px;
+letter-spacing: 1px;
+text-align: center;
+color: #6689A1;
+}
+

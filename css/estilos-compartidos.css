@@ -1,0 +1,103 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5px; 
+    position:relative;
+}
+
+header{
+    background-color: #99DB9F;
+    height: 150px;
+    display: flex;
+    font-family: 'Amatic SC', sans-serif;
+    position:fixed;
+    top:0;
+    width: 100%;
+    background-size:cover;
+}
+
+header img{
+    margin-right:  50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:50%;
+    font-size: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: solid 1px ;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    color: #EB8258;
+}
+main{
+    margin-bottom: 20px;
+    margin-top: 170px; 
+    margin-left: 20px;
+}
+
+.boton_inicio{
+    position: absolute;
+    bottom: 10%;
+    left: 95%;
+    position: fixed;
+    border: 1px solid #99DB9F;
+    background-color: #99DB9F ;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.boton_inicio a{
+    color:black;
+}
+.boton_inicio a:hover{
+    color:  #EB8258;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #99DB9F;
+    padding: 20px;
+    align-items: center;
+}
+
+footer p{
+    font-size: 12px;
+}
+footer p:nth-child(1){
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: #EB8258;
+}
+
+.redes a {
+    margin-right: 20px;
+}
+    
